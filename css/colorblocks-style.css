@@ -92,7 +92,7 @@ img{ max-width:100%; height:auto;}
   font-size:20px;
 }
 .menu-toggle.toggled-on{
-  background:#5ec79e;
+  background:#3f51b5;
 }
 .srt-menu{
   display:none;
@@ -118,7 +118,7 @@ img{ max-width:100%; height:auto;}
   font-size:.9em;
 }
 .srt-menu li a:hover{
-  background:#5ec79e;
+  background:#3f51b5;
   color:#fff;
 }
 .srt-menu li li a {
@@ -150,6 +150,7 @@ img{ max-width:100%; height:auto;}
 #secondary-navigation ul li.current a{
   background:#3f51b5;
   color:#fff;
+  text-decoration: none;
 }
 
 /*SPACE GRID ELEMENTS VERTICALLY, SINCE THEY ARE ONE UNDER ANOTHER SO FAR*/
@@ -223,13 +224,6 @@ a.buttonlink:hover{
 .row:after{
   clear: both;
 }
-
-/* Custom */
-.image-center{
-  display: block;
-  margin: auto;
-}
-
 
 
 /****************************************
@@ -512,3 +506,24 @@ PRINT STYLESHEET
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+/* Custom */
+
+.image-center
+{
+  display: block;
+  margin: auto;
+}
+
+li a { text-decoration: none; }
+
+a:hover, li a:hover { color: #3f51b5 }
+
+ul { list-style-type: none }
+
+#attribution
+{
+  font-size: 11px;
+  color: #666;
+}
+#attribution a { color:#777; }
