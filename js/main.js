@@ -6,7 +6,12 @@ $(document).ready(function(){
   {
     // Add current navigation class based on url
     locations = location.pathname.split("/");
-    $('#topnav a[href^="' + locations[locations.length - 1] + '"]').parent().addClass('current');
+    current = $('#topnav a[href^="' + locations[locations.length - 1] + '"]')
+    if (current.length == 0)
+    {
+      current = $('#topnav a[href^="index.html"]');
+    }
+    current.parent().addClass('current');
 
     /**
     * Handles toggling the navigation menu for small screens.
