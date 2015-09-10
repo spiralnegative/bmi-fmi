@@ -526,4 +526,11 @@ ul { list-style-type: none }
   font-size: 11px;
   color: #666;
 }
+
 #attribution a { color:#777; }
+
+noscript
+{
+  color: #FF2828;
+  margin: 0.5cm;
+}
