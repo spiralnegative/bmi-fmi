@@ -34,9 +34,11 @@ h1, h2, h3, h4, h5, h6{
 a,
 a:visited,
 a:active,
-a:hover{color:#0099ff;}
-a:hover{ text-decoration:none;}
-
+a:hover
+{
+  color:#0099ff;
+  text-decoration:none;
+}
 
 /* Box sizing. Awesome thing. Read about it here: http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 *{	box-sizing:border-box;
@@ -515,11 +517,20 @@ PRINT STYLESHEET
   margin: auto;
 }
 
-li a { text-decoration: none; }
+li a
+{
+  text-decoration: none;
+}
 
-a:hover, li a:hover { color: #3f51b5 }
+a:hover, li a:hover
+{
+  color: #3f51b5;
+}
 
-ul { list-style-type: none }
+ul
+{
+  list-style-type: none
+}
 
 #attribution
 {
@@ -527,7 +538,10 @@ ul { list-style-type: none }
   color: #666;
 }
 
-#attribution a { color:#777; }
+#attribution a
+{
+  color:#777;
+}
 
 noscript
 {
@@ -564,4 +578,14 @@ noscript
 .elective th
 {
   background-color: #70C469;
+}
+
+#exam
+{
+  list-style-type: circle;
+}
+
+#exam li, #syllabus li
+{
+  margin-bottom: 10px;
 }
