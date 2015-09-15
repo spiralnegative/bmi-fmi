@@ -148,7 +148,7 @@ img{ max-width:100%; height:auto;}
 }
 #secondary-navigation ul li a:hover,
 #secondary-navigation ul li.current a{
-  background:#3f51b5;
+  background:#70C469;
   color:#fff;
   text-decoration: none;
 }
@@ -533,4 +533,35 @@ noscript
 {
   color: #FF2828;
   margin: 0.5cm;
+}
+
+.table-courses
+{
+  border-collapse: separate;
+  border-spacing: 5px;
+  width: auto;
+  overflow: auto;
+  display: block;
+  empty-cells: hide;
+}
+
+.table-courses th
+{
+  background-color: #3f51b5;
+  font-weight: normal;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.table-courses td
+{
+  background-color: #E6E6E6;
+  padding: 20px 30px;
+  color: #666;
+}
+
+.elective th
+{
+  background-color: #70C469;
 }
