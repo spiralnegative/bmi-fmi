@@ -538,18 +538,13 @@ ul
   color: #666;
 }
 
-#attribution a
-{
-  color:#777;
-}
-
 noscript
 {
   color: #FF2828;
   margin: 0.5cm;
 }
 
-.table-courses
+.table-color
 {
   border-collapse: separate;
   border-spacing: 5px;
@@ -559,7 +554,7 @@ noscript
   empty-cells: hide;
 }
 
-.table-courses th
+.table-color th
 {
   background-color: #3f51b5;
   font-weight: normal;
@@ -568,7 +563,7 @@ noscript
   text-align: center;
 }
 
-.table-courses td
+.table-color td
 {
   background-color: #E6E6E6;
   padding: 20px 30px;
