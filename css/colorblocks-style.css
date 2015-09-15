@@ -396,6 +396,10 @@ But I think that some more breathing space is good:)
     color:#fff;
     background:#3f51b5;
   }
+  .srt-menu li:hover > a
+  {
+    background:#70C469;
+  }
   .srt-menu li li:hover > a{
     color:#fff;
     background:#3f51b5;
